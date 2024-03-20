@@ -21,7 +21,7 @@
     <Transition name="el-fade-in-linear" mode="out-in">
       <div :key="hitokotoData.text" class="content" @click="updateHitokoto">
         <span class="text">{{ hitokotoData.text }}</span>
-        <span class="from">-「&nbsp;{{ hitokotoData.from }}&nbsp;」</span>
+        <span class="from">-{{ hitokotoData.from }}</span>
       </div>
     </Transition>
   </div>
