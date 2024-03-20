@@ -40,13 +40,13 @@
           </div>
         </el-card>
       </el-col>
-      <el-col :span="12" class="right">
-        <div class="title">
-          <setting-two theme="filled" size="28" fill="#ffffff60" />
-          <span class="name">全局设置</span>
-        </div>
-        <Set />
-      </el-col>
+      <!--<el-col :span="12" class="right">-->
+        <!--<div class="title">-->
+          <!--<setting-two theme="filled" size="28" fill="#ffffff60" />-->
+          <!--<span class="name">全局设置</span>-->
+        <!--</div>-->
+        <!--<Set />-->
+     <!-- </el-col>-->
     </el-row>
   </div>
 </template>
