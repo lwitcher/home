@@ -13,7 +13,7 @@
   },
   {
     "name": "CppReference",
-    "icon": "/images/icon/bilibili.png",
+    "icon": "/images/icon/warn.png",
     "tip": "吸啤啤参考",
     "url": "https://en.cppreference.com/w/"
   }
