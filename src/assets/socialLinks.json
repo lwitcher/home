@@ -13,7 +13,7 @@
   },
   {
     "name": "CppReference",
-    "icon": "/images/icon/airplane.png",
+    "icon": "/images/icon/question.png",
     "tip": "吸啤啤参考文档",
     "url": "https://en.cppreference.com/w/"
   }
