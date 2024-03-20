@@ -49,7 +49,7 @@ const getHitokotoData = async () => {
   try {
     const result = await getHitokoto();
     hitokotoData.text = result.content;
-    hitokotoData.from = result.author + '·[' + result.origin +']';
+    hitokotoData.from = result.author + '·「' + result.origin +'」';
   } catch (error) {
     ElMessage({
       message: "一言获取失败",
