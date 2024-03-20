@@ -12,9 +12,9 @@
           <MainRight v-show="!store.boxOpenState" />
           <Box v-show="store.boxOpenState" />
         </section>
-        <!-- <section class="more" v-show="store.setOpenState" @click="store.setOpenState = false">-->
-          <!--  <MoreSet />-->
-        <!--  </section> -->
+        <section class="more" v-show="store.setOpenState" @click="store.setOpenState = false">
+          <MoreSet />
+        </section>
       </div>
       <!-- 移动端菜单按钮 -->
       <Icon
