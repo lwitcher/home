@@ -7,7 +7,7 @@
     @click.stop
   >
     <!-- 打开音乐面板 -->
-    <Transition name="el-fade-in-linear">
+    <!-- <Transition name="el-fade-in-linear">
       <div
         class="open-music"
         v-show="openMusicShow && store.musicIsOk"
@@ -16,12 +16,12 @@
         <music-menu theme="filled" size="18" fill="#efefef" />
         <span>打开音乐播放器</span>
       </div>
-    </Transition>
+    </Transition> -->
     <!-- 一言内容 -->
     <Transition name="el-fade-in-linear" mode="out-in">
       <div :key="hitokotoData.text" class="content" @click="updateHitokoto">
         <span class="text">{{ hitokotoData.text }}</span>
-        <span class="from">-{{ hitokotoData.from }}</span>
+        <span class="from">- {{ hitokotoData.from }}</span>
       </div>
     </Transition>
   </div>
