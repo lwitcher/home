@@ -8,5 +8,10 @@
     "icon": "LaptopCode",
     "name": "看板",
     "link": "http://112.126.79.118:8080/kanboard"
+  },
+  {
+    "icon": "AudioConsole",
+    "name": "服务器控制台",
+    "link": "http://112.126.79.118:9090"
   }
 ]

@@ -102,6 +102,7 @@ import {
   Book,
   Fire,
   LaptopCode,
+  AudioConsole,
 } from "@vicons/fa";
 
 ...
@@ -115,6 +116,7 @@ const siteIcon = {
   Book,
   Fire,
   LaptopCode,
+  AudioConsole,
 };
 ```
 
