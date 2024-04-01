@@ -1,0 +1,8 @@
+site_name: lwitcher's docs
+nav:
+  - Home: index.md
+  - About: about.md
+  - test: test
+
+theme:
+  name: material  

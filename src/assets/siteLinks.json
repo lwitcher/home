@@ -10,7 +10,12 @@
     "link": "http://112.126.79.118:8080/kanboard"
   },
   {
-    "icon": "AudioConsole",
+    "icon": "Tools",
+    "name": "IT-TOOLS",
+    "link": "https://www.ittools.top/"
+  },
+  {
+    "icon": "Carrot",
     "name": "服务器控制台",
     "link": "http://112.126.79.118:9090"
   }

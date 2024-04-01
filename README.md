@@ -102,7 +102,9 @@ import {
   Book,
   Fire,
   LaptopCode,
-  AudioConsole,
+  Carrot,
+  BookMedical,
+  Tools,
 } from "@vicons/fa";
 
 ...
@@ -116,7 +118,9 @@ const siteIcon = {
   Book,
   Fire,
   LaptopCode,
-  AudioConsole,
+  Carrot,
+  BookMedical,
+  Tools,
 };
 ```
 
