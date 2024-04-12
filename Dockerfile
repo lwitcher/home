@@ -9,7 +9,7 @@ COPY . /usr/src
 RUN npm install && mv ./node_modules /tmp && rm -rf * && mv /tmp/node_modules .
 
 # 当容器启动时执行编译脚本
-CMD cp -r /src/* /usr/src/ && npm run build&&cp -r /usr/src/dist/* /src/dist 
+CMD cp -r /src/* /usr/src/ && npm run build&&cp -r /usr/src/dist /src/
 #CMD ["bash"]
 
 # sudo docker build -t nodebuilder .
