@@ -105,6 +105,8 @@ import {
   Carrot,
   BookMedical,
   Tools,
+  PenNib,
+  Database,
 } from "@vicons/fa";
 
 ...
@@ -121,6 +123,8 @@ const siteIcon = {
   Carrot,
   BookMedical,
   Tools,
+  PenNib,
+  Database,
 };
 ```
 
