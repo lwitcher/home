@@ -15,6 +15,11 @@
     "link": "https://excalidraw.com/"
   },
   {
+    "icon": "Book",
+    "name": "团队笔记",
+    "link": "http://10.233.10.136:8083"
+  },
+  {
     "icon": "Tools",
     "name": "IT-TOOLS",
     "link": "https://www.ittools.top/"
