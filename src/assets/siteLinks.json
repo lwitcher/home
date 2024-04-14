@@ -2,22 +2,12 @@
   {
     "icon": "Fire",
     "name": "版本管理",
-    "link": "http://172.18.230.254:3000"
+    "link": "http://10.233.10.136:3000"
   },
   {
     "icon": "LaptopCode",
     "name": "看板",
-    "link": "http://172.18.230.254:8082"
-  },
-  {
-    "icon": "Tools",
-    "name": "IT-TOOLS",
-    "link": "https://www.ittools.top/"
-  },
-  {
-    "icon": "Carrot",
-    "name": "服务器控制台",
-    "link": "http://172.18.230.254:9090"
+    "link": "http://10.233.10.136:8082"
   },
   {
     "icon": "PenNib",
@@ -25,8 +15,23 @@
     "link": "https://excalidraw.com/"
   },
   {
+    "icon": "Tools",
+    "name": "IT-TOOLS",
+    "link": "https://www.ittools.top/"
+  },
+  {
+    "icon": "Docker",
+    "name": "容器管理",
+    "link": "http://10.233.10.136:9000"
+  },
+  {
+    "icon": "Carrot",
+    "name": "服务器控制台",
+    "link": "http://10.233.10.136:9090"
+  },
+  {
     "icon": "Database",
     "name": "mysql管理",
-    "link": "http://172.18.230.254:8081"
+    "link": "http://10.233.10.136:8081"
   }
 ]

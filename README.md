@@ -107,6 +107,7 @@ import {
   Tools,
   PenNib,
   Database,
+  Docker,
 } from "@vicons/fa";
 
 ...
@@ -125,6 +126,7 @@ const siteIcon = {
   Tools,
   PenNib,
   Database,
+  Docker,
 };
 ```
 
