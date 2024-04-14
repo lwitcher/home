@@ -108,6 +108,7 @@ import {
   PenNib,
   Database,
   Docker,
+  Brain,
 } from "@vicons/fa";
 
 ...
@@ -127,6 +128,7 @@ const siteIcon = {
   PenNib,
   Database,
   Docker,
+  Brain,
 };
 ```
 

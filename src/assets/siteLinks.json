@@ -11,13 +11,18 @@
   },
   {
     "icon": "PenNib",
-    "name": "Excalidraw",
-    "link": "https://excalidraw.com/"
+    "name": "在线文档",
+    "link": "http://10.233.10.136:8087"
   },
   {
     "icon": "Book",
     "name": "团队笔记",
     "link": "http://10.233.10.136:8083"
+  },
+  {
+    "icon": "Brain",
+    "name": "Excalidraw",
+    "link": "https://excalidraw.com/"
   },
   {
     "icon": "Tools",
