@@ -16,5 +16,11 @@
     "icon": "/images/icon/question.png",
     "tip": "吸啤啤参考文档",
     "url": "https://en.cppreference.com/w/"
+  },
+  {
+    "name": "Invest",
+    "icon": "/images/icon/candle.png",
+    "tip": "投资",
+    "url": "http://SERVER_IP_PLACEHOLDER/invest/"
   }
 ]

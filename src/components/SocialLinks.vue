@@ -18,7 +18,17 @@
 </template>
 
 <script setup>
-import socialLinks from "@/assets/socialLinks.json";
+import socialLinksData from "@/assets/socialLinks.json";
+import { computed } from "vue";
+import { SERVER_IP } from "@/config";
+
+// 社交链接数据（动态替换 IP）
+const socialLinks = computed(() => {
+  return socialLinksData.map((item) => ({
+    ...item,
+    url: item.url.replace("SERVER_IP_PLACEHOLDER", SERVER_IP),
+  }));
+});
 
 // 社交链接提示
 const socialTip = ref("");

@@ -51,8 +51,7 @@ import siteLinks from "@/assets/siteLinks.json";
 
 const store = mainStore();
 
-// 统一配置服务器 IP
-const SERVER_IP = "112.126.79.118";
+import { SERVER_IP } from "@/config";
 
 // 计算网站链接
 const siteLinksList = computed(() => {
