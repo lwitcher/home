@@ -21,6 +21,7 @@
     "name": "Invest",
     "icon": "/images/icon/candle.png",
     "tip": "投资",
-    "url": "http://SERVER_IP_PLACEHOLDER/invest/"
+    "url": "http://SERVER_IP_PLACEHOLDER/invest/",
+    "hide": true
   }
 ]

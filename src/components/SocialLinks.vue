@@ -14,21 +14,33 @@
       </a>
     </div>
     <span class="tip">{{ socialTip }}</span>
+    <!-- 隐形链接触发区 -->
+    <div class="hidden-trigger" @click="toggleHidden"></div>
   </div>
 </template>
 
 <script setup>
 import socialLinksData from "@/assets/socialLinks.json";
-import { computed } from "vue";
+import { computed, ref } from "vue";
 import { SERVER_IP } from "@/config";
 
-// 社交链接数据（动态替换 IP）
+// 隐藏链接显示状态
+const showHidden = ref(false);
+
+// 社交链接数据（动态替换 IP，根据状态过滤隐藏项）
 const socialLinks = computed(() => {
-  return socialLinksData.map((item) => ({
-    ...item,
-    url: item.url.replace("SERVER_IP_PLACEHOLDER", SERVER_IP),
-  }));
+  return socialLinksData
+    .filter((item) => showHidden.value || !item.hide)
+    .map((item) => ({
+      ...item,
+      url: item.url.replace("SERVER_IP_PLACEHOLDER", SERVER_IP),
+    }));
 });
+
+// 切换隐藏显示
+const toggleHidden = () => {
+  showHidden.value = !showHidden.value;
+};
 
 // 社交链接提示
 const socialTip = ref("");
@@ -36,6 +48,7 @@ const socialTip = ref("");
 
 <style lang="scss" scoped>
 .social {
+  position: relative; /* 确保子元素绝对定位相对于此容器 */
   margin-top: 1rem;
   display: flex;
   align-items: center;
@@ -93,6 +106,15 @@ const socialTip = ref("");
         display: block;
       }
     }
+  }
+  .hidden-trigger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    cursor: default; /* 不显示手型光标，伪装成空白区域 */
+    z-index: 10;
   }
 }
 </style>
