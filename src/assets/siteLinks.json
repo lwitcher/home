@@ -38,5 +38,10 @@
     "icon": "Brain",
     "name": "Excalidraw",
     "link": "https://excalidraw.com/"
+  },
+  {
+    "icon": "Envelope",
+    "name": "网易邮箱",
+    "link": "https://mail.163.com/"
   }
 ]
