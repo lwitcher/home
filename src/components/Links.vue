@@ -43,7 +43,7 @@
 <script setup>
 import { Icon } from "@vicons/utils";
 // 可前往 https://www.xicons.org 自行挑选并在此处引入
-import { Link, Blog, CompactDisc, Cloud, Compass, Book, Fire, LaptopCode, Carrot, BookMedical,Tools,PenNib,Database,Docker,Brain } from "@vicons/fa"; // 注意使用正确的类别
+import { Link, Blog, CompactDisc, Cloud, Compass, Book, Fire, LaptopCode, Carrot, BookMedical,Tools,PenNib,Database,Docker,Brain,Github,Clock,Code,Newspaper,Robot,Cookie } from "@vicons/fa"; // 注意使用正确的类别
 import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper";
@@ -51,11 +51,20 @@ import siteLinks from "@/assets/siteLinks.json";
 
 const store = mainStore();
 
+// 统一配置服务器 IP
+const SERVER_IP = "112.126.79.118";
+
 // 计算网站链接
 const siteLinksList = computed(() => {
   const result = [];
-  for (let i = 0; i < siteLinks.length; i += 6) {
-    const subArr = siteLinks.slice(i, i + 6);
+  // 替换 IP 占位符
+  const processedLinks = siteLinks.map((item) => ({
+    ...item,
+    link: item.link.replace("SERVER_IP_PLACEHOLDER", SERVER_IP),
+  }));
+
+  for (let i = 0; i < processedLinks.length; i += 6) {
+    const subArr = processedLinks.slice(i, i + 6);
     result.push(subArr);
   }
   return result;
@@ -77,6 +86,12 @@ const siteIcon = {
   Database,
   Docker,
   Brain,
+  Github,
+  Gitee: Code,
+  Clock,
+  Newspaper,
+  Robot,
+  Cookie,
 };
 
 // 链接跳转

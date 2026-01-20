@@ -2,46 +2,41 @@
   {
     "icon": "Fire",
     "name": "版本管理",
-    "link": "http://10.233.10.136:3000"
+    "link": "http://SERVER_IP_PLACEHOLDER:3000"
   },
   {
     "icon": "LaptopCode",
     "name": "看板",
-    "link": "http://10.233.10.136:8082"
+    "link": "http://SERVER_IP_PLACEHOLDER/kanban/"
   },
   {
-    "icon": "PenNib",
-    "name": "在线文档",
-    "link": "http://10.233.10.136:8087"
+    "icon": "Gitee",
+    "name": "Gitee",
+    "link": "https://gitee.com/"
   },
   {
-    "icon": "Book",
-    "name": "团队笔记",
-    "link": "http://10.233.10.136:8083"
+    "icon": "Newspaper",
+    "name": "AnyKnew",
+    "link": "https://www.anyknew.com/#/"
+  },
+  {
+    "icon": "Robot",
+    "name": "DeepSeek",
+    "link": "https://chat.deepseek.com/"
+  },
+  {
+    "icon": "Cookie",
+    "name": "豆包",
+    "link": "https://www.doubao.com/"
+  },
+  {
+    "icon": "Clock",
+    "name": "Time Cov",
+    "link": "https://www.epochconverter.com/"
   },
   {
     "icon": "Brain",
     "name": "Excalidraw",
     "link": "https://excalidraw.com/"
-  },
-  {
-    "icon": "Tools",
-    "name": "IT-TOOLS",
-    "link": "https://www.ittools.top/"
-  },
-  {
-    "icon": "Docker",
-    "name": "容器管理",
-    "link": "http://10.233.10.136:9000"
-  },
-  {
-    "icon": "Carrot",
-    "name": "服务器控制台",
-    "link": "http://10.233.10.136:9090"
-  },
-  {
-    "icon": "Database",
-    "name": "mysql管理",
-    "link": "http://10.233.10.136:8081"
   }
 ]
