@@ -15,6 +15,16 @@
     "link": "https://gitee.com/"
   },
   {
+    "icon": "PaperPlane",
+    "name": "FlowUs",
+    "link": "https://flowus.cn/login"
+  },
+  {
+    "icon": "Github",
+    "name": "HelloGitHub",
+    "link": "https://hellogithub.com/"
+  },
+  {
     "icon": "Newspaper",
     "name": "AnyKnew",
     "link": "https://www.anyknew.com/#/"
@@ -35,7 +45,7 @@
     "link": "https://www.epochconverter.com/"
   },
   {
-    "icon": "Brain",
+    "icon": "Excalidraw",
     "name": "Excalidraw",
     "link": "https://excalidraw.com/"
   },
