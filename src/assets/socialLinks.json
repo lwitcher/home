@@ -23,5 +23,11 @@
     "tip": "投资",
     "url": "http://SERVER_IP_PLACEHOLDER/invest/",
     "hide": true
+  },
+  {
+    "name": "News",
+    "icon": "/images/icon/news.png",
+    "tip": "每日新闻",
+    "url": "http://SERVER_IP_PLACEHOLDER:8888"
   }
 ]
